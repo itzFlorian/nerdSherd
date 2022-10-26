@@ -1,0 +1,134 @@
+// S T A G E
+.carousel-outer-container {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+// C A R O U S E L
+.carousel-inner-container {
+  height: 90% !important;
+  width: 100%;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+
+// I M A G E - C O N T A I N E R
+.carousel-image-container{
+  display: flex;
+  position: relative;
+  justify-content: center;
+  max-height: 1500px;
+  min-height: 100vh;
+}
+.carousel-image-container > img{
+  object-fit: cover;
+  width: 100%;
+  max-height: 1500px
+}
+
+
+//  C A R O U S E L - T E X T - F I E L D
+.carousel-text-field{
+
+  position: absolute;
+  width: 50rem;
+  margin-top: 4.5rem;
+}
+
+//  C A R O U S E L - T E X T - F I E L D
+.carousel-text{
+  font-size: 4rem;
+  line-height: 4.5rem;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  text-align: center;
+}
+
+
+@media (min-width: 900px) {
+  .carousel-image-container > img{
+    object-fit: contain;
+    max-height: 100vh;
+  };
+}
+
+
+@media(max-width: 900px){
+  .carousel-text-field{
+    display: flex;
+    position: absolute;
+    width: 80vw;
+    margin-top: 5vh;
+  };
+  .carousel-text{
+    font-size: 4.5vh;
+    line-height: 6vh;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+  }
+}
+
+
+
+
+// H E A D L I N E
+.carousell-headline{
+  display: flex;
+  position: absolute;
+  margin-top: -5%;
+  z-index: 2;
+  font-size: calc(12vw + 2vmin);
+  color: white;
+  text-shadow: 0px 0px 20px black;
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 700;
+}
+
+
+
+// B U T T O N - L E I S T E
+.carousel-btn {
+  width: 87%;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .button{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    &:hover {
+      outline: 1.5px solid white !important;
+    }
+    &:active {
+      background-color: white;
+      color: #121517;
+      outline: 1.5px solid white !important; 
+    }
+  }
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon {
+  margin-top: 5vw;
+}
+.carousel-control-prev,
+.carousel-control-next{
+  height:fit-content;
+  margin:auto
+}

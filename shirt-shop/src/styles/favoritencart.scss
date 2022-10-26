@@ -1,0 +1,64 @@
+.favcart-cardd{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+
+@media (max-width: 300px) {
+.favcart-card{
+flex-direction: row;
+}
+}
+
+
+.shopping-details{
+  color:white;
+}
+
+
+.favcart-hl{
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: white;
+}
+
+.favcart-text{
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem
+}
+
+.favcart-p{
+  margin: 1rem;
+}
+
+.favcart-p > p{
+  margin:2px;
+  color: white;
+}
+
+.favcart-button-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.favcart-button{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  &:hover {
+    outline: 1px solid white !important;
+  }
+  &:active {
+    background-color: white;
+    color: rgb(18, 21, 24);
+    outline: 1px solid white !important; 
+  }
+}

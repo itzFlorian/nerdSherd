@@ -1,0 +1,201 @@
+.hidden{
+  visibility:hidden;
+}
+.sherd-container-all{
+  display:flex;
+  flex-wrap:wrap;
+  flex: 3;
+  padding: 2rem
+}
+
+.sherds-all{
+  margin:10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 280px;
+  height: 400px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.sherd-text-all{
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin-top: 10%;
+  margin-left: 32%;
+  margin-right: 32%;
+  margin-bottom: 25%;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.2em;
+  line-height: 1.4rem;
+}
+
+.red-text{
+  color:red;
+}
+
+.img-container-all{
+  position:relative;
+}
+
+.details-top-container{
+  display:flex;
+}
+.details-bottom-container{
+  display:flex;
+}
+.color-container{
+  display: flex;
+}
+.circle{
+  border:1px solid white;
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor:pointer;
+  display: flex;
+}
+
+.column{
+  display: flex;
+  flex-direction: column;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem
+}
+
+.circle {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test{
+  width: 300px;
+  height: 400px;
+  border-radius: 15px;
+  border: 1px solid green;
+}
+
+.red{
+  background-color:rgb(200, 0, 50);
+}
+.darkred{
+  background-color: rgb(125, 0, 50);
+}
+.red-grad-135{
+  background: linear-gradient(135deg, rgb(200, 0, 50)30%, rgb(125,0,50)80%);
+}
+
+
+
+
+.white{
+  background-color: rgb(250, 250, 250);
+}
+.darkwhite{
+  background-color: rgb(200, 200, 200);
+}
+.white-grad-135{
+  background: linear-gradient(135deg, rgb(250, 250, 250)30%, rgb(200, 200, 200)80%);
+}
+
+
+
+
+.orange{
+  background-color: rgb(250, 125, 0);
+}
+.darkorange{
+  background-color: rgb(175, 75, 0);
+}
+.orange-grad-135{
+  background: linear-gradient(135deg, rgb(250, 125, 0)30%, rgb(175, 75, 0)80%);
+}
+
+
+
+
+.lime{
+  background-color: rgb(125, 250, 0);
+}
+.darklime{
+  background-color: rgb(50, 125, 0);
+}
+.lime-grad-135{
+  background: linear-gradient(135deg, rgb(125, 250, 0)30%, rgb(50, 125, 0)80%);
+}
+
+
+
+
+.black{
+  background-color: rgb(25, 25, 25);
+}
+.darkblack{
+  background-color: rgb(0, 0, 0);
+}
+.black-grad-135{
+  background: linear-gradient(135deg, rgb(45, 48, 51)30%,rgb(10, 13, 16));
+}
+
+
+
+.grey{
+  background-color: rgb(125, 125, 125);
+}
+.darkgrey{
+  background-color: rgb(75, 75, 75);
+}
+.grey-grad-135{
+  background: linear-gradient(135deg, rgb(125, 125, 125)30%, rgb(75, 75, 75)80%);
+}
+
+
+
+
+.oliv{
+  background-color: rgb(100, 100, 0);
+}
+.darkoliv{
+  background-color: rgb(60, 60, 0);
+}
+.oliv-grad-135{
+  background: linear-gradient(135deg, rgb(100, 100, 0)30%, rgb(60, 60, 0)80%);
+}
+
+
+
+
+.beige{
+  background-color: rgb(250, 200, 125);
+}
+.darkbeige{
+  background-color: rgb(200, 150, 75);
+}
+.beige-grad-135{
+  background: linear-gradient(135deg, rgb(250, 200, 125)30%, rgb(200, 150, 75)80%);
+}
+
+
+
+
+.blue{
+  background-color: rgb(0, 100, 200);
+}
+.darkblue{
+  background-color: rgb(0, 50, 150);
+}
+.blue-grad-135{
+  background: linear-gradient(135deg, rgb(0, 100, 200)30%, rgb(0, 50, 150)80%);
+}

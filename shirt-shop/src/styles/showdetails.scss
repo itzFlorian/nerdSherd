@@ -1,0 +1,127 @@
+/* D E T A I L - C A R D*/
+.detail-card{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+}
+
+
+
+/* LEFT */
+/* S H E R D - S H E R D */
+.detail-sherd{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    /* height: 490px; */
+    position: relative;
+
+}
+.detail-sherd img{
+    justify-content: center;
+    object-fit: contain;
+}
+
+.detail-text{
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 12rem;
+    margin-left: 11rem;
+    display: flex;
+    position: absolute;
+    top: 4.8rem;    
+}
+.detail-text-hl{
+    font-size: 1.5rem
+}
+
+/* S H E R D - I N F O */
+.details-single{
+    font-weight: 600;
+    display: flex;
+    position: absolute;
+    width: 500px;
+    bottom: 0;
+    padding-bottom: 1.5rem;
+    padding-left: 2.8rem;
+    padding-right: 2.8rem
+}
+
+.details-single-description{
+    flex: 2
+}
+
+.details-single-buttons{
+    align-items:flex-end;
+    flex: 1;
+}
+
+.gap{
+    gap: 3rem;
+}
+
+
+/* RIGHT */
+/* C U S T O M I Z E R */
+.customize{
+    display: flex;
+    /* height: 490px; */
+
+    flex-direction: column;
+    color: white;
+    padding: 1rem;
+}
+
+.select-single{
+    height:fit-content;
+}
+
+.between{
+    justify-content: space-between;
+}
+.color-pick {
+    width: 100%;
+    height: 100%;
+}
+
+.detail-btn{
+    margin-top: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+
+@media (max-width: 1300px) {
+    .detail-card{
+        flex-direction: column;
+    }
+}
+
+.value-field{
+    background-color: hidden;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1.5rem;
+    padding-left: 1.5rem;
+    border: 1px solid white;
+    border-radius: 50px;
+    width: 5rem;
+}
+
+.col-circle{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+    border: 1px solid white;
+    &:hover {
+        outline: 1.5px solid white !important;
+      }
+      &:active {
+        background-color: white;
+        color: #121517;
+        outline: 1.5px solid white !important; 
+      }
+}
