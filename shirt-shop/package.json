@@ -1,6 +1,5 @@
 {
   "name": "shirt-shop",
-  "homepage": "https://grossesbewirken.github.io/spa-final-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
